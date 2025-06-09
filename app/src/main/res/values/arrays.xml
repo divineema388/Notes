@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_theme_entries">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>system_default</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="pref_sort_order_entries">
+        <item>Last Modified (Newest First)</item>
+        <item>Creation Date (Newest First)</item>
+        <item>Title (A-Z)</item>
+    </string-array>
+    <string-array name="pref_sort_order_values">
+        <item>last_modified_desc</item>
+        <item>created_date_desc</item>
+        <item>title_asc</item>
+    </string-array>
+</resources>

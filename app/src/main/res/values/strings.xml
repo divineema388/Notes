@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="add_new_note">Add a new note</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MyNotes App</string>
+    <string name="nav_header_subtitle">Organize your thoughts</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_source_code">Source Code</string>
+    <string name="menu_about">About</string>
+    <string name="menu_email">Email</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_help">Help</string>
+
+    <string name="about_app_version">Version 1.0.0</string>
+    <string name="about_app_usefulness_title">What MyNotes Can Do For You</string>
+    <string name="about_app_usefulness_content">
+        MyNotes is designed to be your ultimate personal organizer. It\'s a sleek, intuitive,
+        and powerful app that lets you capture thoughts, ideas, to-do lists, and reminders
+        with unparalleled ease. Whether you\'re brainstorming your next big project,
+        jotting down a quick grocery list, or keeping track of important deadlines,
+        MyNotes provides a clutter-free space for all your vital information.
+        \n\n
+        With MyNotes, you can:\n
+        - **Create and Edit:** Quickly write new notes or modify existing ones.\n
+        - **Organize with Ease:** Keep all your notes in one central, accessible place.\n
+        - **Simple Deletion:** Swipe to delete notes you no longer need.\n
+        - **Modern UI:** Enjoy a clean, minimalist design that enhances readability and usability.\n
+        - **Reliable Storage:** Your notes are saved locally, ensuring they\'re always available, even offline.
+        \n\n
+        We believe that a clear mind starts with organized thoughts. MyNotes is crafted to help you achieve just that,
+        allowing you to focus on what truly matters while we handle the organization.
+        Start simplifying your life, one note at a time!
+    </string>
+    <string name="about_credits_title">Credits and Acknowledgments</string>
+    <string name="about_credits_content">
+        MyNotes was developed by [Your Name/Team Name] with the goal of providing
+        a simple yet powerful note-taking experience.
+        \n\n
+        Special thanks to:\n
+        - **Google\'s Android Team:** For the robust Android platform and Material Design guidelines that inspired this app\'s modern UI.\n
+        - **Stack Overflow Community:** For countless solutions and insights.\n
+        - **Font Awesome:** For providing excellent icon sets (if you used any custom ones).\n
+        - **Family and Friends:** For their unwavering support and patience throughout the development process.
+        \n\n
+        This application is built with Android Jetpack components (Room, ViewModel, LiveData)
+        to ensure a robust and maintainable architecture.
+        \n\n
+        © 2025 MyNotes App. All rights reserved.
+    </string>
+
+    <string name="support_contact_message">Scan the QR code below to contact the developer on WhatsApp!</string>
+    <string name="whatsapp_qr_code_desc">WhatsApp QR Code for support</string>
+    <string name="scan_qr_message">Open WhatsApp and scan this QR code to start a chat.</string>
+
+    <string name="pref_header_appearance">Appearance</string>
+    <string name="pref_header_behavior">Behavior</string>
+    <string name="pref_header_about">About &amp; Info</string>
+
+    <string name="pref_key_theme">app_theme</string>
+    <string name="pref_title_theme">App Theme</string>
+    <string name="pref_theme_default_value">system_default</string>
+
+    <string name="pref_key_sort_order">note_sort_order</string>
+    <string name="pref_title_sort_order">Sort Notes By</string>
+    <string name="pref_sort_order_default_value">last_modified_desc</string>
+
+    <string name="pref_key_confirm_delete">confirm_delete</string>
+    <string name="pref_title_confirm_delete">Confirm Deletion</string>
+    <string name="pref_summary_confirm_delete">Ask for confirmation before deleting a note</string>
+
+</resources>

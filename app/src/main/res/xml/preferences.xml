@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_header_appearance">
+
+        <ListPreference
+            app:key="@string/pref_key_theme"
+            app:title="@string/pref_title_theme"
+            app:defaultValue="@string/pref_theme_default_value"
+            app:entries="@array/pref_theme_entries"
+            app:entryValues="@array/pref_theme_values"
+            app:icon="@drawable/ic_palette_black_24dp"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:key="@string/pref_key_sort_order"
+            app:title="@string/pref_title_sort_order"
+            app:defaultValue="@string/pref_sort_order_default_value"
+            app:entries="@array/pref_sort_order_entries"
+            app:entryValues="@array/pref_sort_order_values"
+            app:icon="@drawable/ic_sort_black_24dp"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_header_behavior">
+
+        <SwitchPreferenceCompat
+            app:key="@string/pref_key_confirm_delete"
+            app:title="@string/pref_title_confirm_delete"
+            app:summary="@string/pref_summary_confirm_delete"
+            app:defaultValue="true"
+            app:icon="@drawable/ic_delete_black_24dp" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_header_about">
+
+        <Preference
+            app:title="@string/menu_about"
+            app:icon="@drawable/ic_info_black_24dp">
+            <intent android:action="android.intent.action.VIEW"
+                android:targetPackage="com.mynotes.save"  android:targetClass="com.mynotes.save.AboutActivity" /> </Preference>
+
+        <Preference
+            app:title="@string/menu_source_code"
+            app:icon="@drawable/ic_code_black_24dp">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
