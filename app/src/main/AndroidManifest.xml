@@ -48,6 +48,13 @@
             android:label="@string/menu_settings"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.MyNotes.NoActionBar" />
+
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false"
+            android:label="@string/menu_help"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.MyNotes.NoActionBar" />
         </application>
 
 </manifest>

@@ -73,4 +73,53 @@
     <string name="pref_title_confirm_delete">Confirm Deletion</string>
     <string name="pref_summary_confirm_delete">Ask for confirmation before deleting a note</string>
 
+    <string name="help_welcome_title">Welcome to MyNotes Help!</string>
+    <string name="help_welcome_content">
+        MyNotes is designed to be your simple, elegant, and efficient companion for jotting down
+        thoughts, ideas, and reminders. This guide will walk you through the core features of the app
+        to help you get started quickly and make the most out of your note-taking experience.
+    </string>
+
+    <string name="help_create_note_title">How to Create a New Note</string>
+    <string name="help_create_note_content">
+        Creating a new note is super easy!\n
+        1. Look for the **floating "+" button** at the bottom right corner of the main screen.\n
+        2. Tap on this button to open the "Add Note" screen.\n
+        3. Enter a **Title** for your note in the first field.\n
+        4. Write your **Description** (the main content of your note) in the larger field below.\n
+        5. Once you\'re done, tap the **"Save" icon** (a floppy disk icon) in the top right corner of the toolbar to save your note.
+    </string>
+
+    <string name="help_edit_note_title">How to Edit an Existing Note</string>
+    <string name="help_edit_note_content">
+        Want to update a note you\'ve already saved? No problem!\n
+        1. From the main list of notes, simply **tap on the note** you wish to edit.\n
+        2. This will open the "Edit Note" screen, pre-filled with your existing title and description.\n
+        3. Make your desired changes to the **Title** or **Description**.\n
+        4. Tap the **"Save" icon** in the toolbar to update the note with your changes.
+    </string>
+
+    <string name="help_delete_note_title">How to Delete a Note</string>
+    <string name="help_delete_note_content">
+        If a note is no longer needed, you can easily remove it:\n
+        1. On the main notes list, **swipe left or right** on the note you want to delete.\n
+        2. A "Note deleted" message will briefly appear.
+        \n\n
+        **Important:** If you have "Confirm Deletion" enabled in Settings, you\'ll see a confirmation dialog before the note is permanently removed. This helps prevent accidental deletions!
+    </string>
+
+    <string name="help_settings_title">Customizing Your Experience (Settings)</string>
+    <string name="help_settings_content">
+        MyNotes offers a few ways to tailor the app to your preferences:\n
+        1. Open the **Navigation Drawer** by tapping the **hamburger icon** (three horizontal lines) in the top left corner of the main screen.\n
+        2. Tap on **"Settings"**.\n
+        3. Here you can:\n
+            - **App Theme:** Choose between Light, Dark, or System Default theme to match your device\'s settings or your personal preference.\n
+            - **Sort Notes By:** Organize your notes by when they were last modified, when they were created, or alphabetically by title.\n
+            - **Confirm Deletion:** Toggle this option to get a confirmation prompt before a note is deleted, providing an extra layer of safety.
+    </string>
+
+    <string name="help_website_label">Visit Our Website</string>
+    <string name="help_website_url">https://pupchat.infy.uk</string>
+
 </resources>

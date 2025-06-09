@@ -194,8 +194,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(supportIntent);
             // --- MODIFIED CODE END ---
         }else if (id == R.id.nav_help) {
-            Toast.makeText(this, "Help clicked", Toast.LENGTH_SHORT).show();
-            // TODO: Implement help page or guide
+            // --- MODIFIED CODE START ---
+            Intent helpIntent = new Intent(MainActivity.this, HelpActivity.class);
+            startActivity(helpIntent);
+            // --- MODIFIED CODE END ---
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
